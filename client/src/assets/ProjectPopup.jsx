@@ -3,14 +3,14 @@ import React from "react";
 function ProjectPopup(props) {
   const descriptions = {
     KeeperApp:
-      "This web application allows the user to enter and keep sticky notes on a webpage. Notes are stored using PostgreSQL and accessed/edited using basic CRUD operations.",
+      "This web application allows the user to enter and keep sticky notes on a webpage. When the user is logged in, notes are stored using PostgreSQL and accessed/edited using basic CRUD operations and the user id. ",
     TriviaApp:
       "This site provides the user with trivia questions through various user selections which eventually lead to questions being fetched from a trivia API. If the user chooses to log in, score data is stored using MongoDB.",
     PersonalSite: "This site was created with React and styled using Tailwind.",
   };
 
   const handleCloseClick = (event) => {
-    event.stopPropagation(); 
+    event.stopPropagation();
     props.exitPopup();
   };
 
