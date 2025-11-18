@@ -15,7 +15,7 @@ function SkillsWidget(props) {
                 return (
                 <div
                 key={index}
-                className={`bg-${proficiency} rounded-lg border-4 px-4 py-2`} 
+                className={`bg-gray-100 rounded-lg border-4 px-4 py-2`} 
                 >
                     <h3 className='text-lg font-semibold'>{name}</h3>
                 </div>

@@ -7,11 +7,13 @@ function Intro() {
     const [typingSpeed, setTypingSpeed] = useState(100);
     const textArray = [
         'Computer Engineering',
-        'Artificial Intelligence',
-        'Web Development',
-        'Databases',
-        'Computer Science',
+        'Embedded Systems',
+        'Low Level Programming',
+        'Hardware Design',
+        'Computer Vision',
+        'Machine Learning',
         'Software',
+        'Hardware',
     ];
     const pauseTime = 2000;
 

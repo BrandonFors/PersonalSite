@@ -2,39 +2,51 @@ import React, { useState } from "react";
 import SkillsWidget from "./SkillsWidget";
 
 const sections = [
+  // proficiency is not used for now
   {
     title: "Programming Languages",
     skillList: [
-      { name: "Python", proficiency: "proficient" },
-      { name: "Java", proficiency: "proficient" },
-      { name: "JavaScript", proficiency: "proficient" },
-      { name: "HTML/CSS", proficiency: "proficient" },
-      { name: "C", proficiency: "intermediate" },
-      { name: "SQL", proficiency: "intermediate" },
+      { name: "C", proficiency: "green" },
+      { name: "Python", proficiency: "green" },
+      { name: "JavaScript", proficiency: "green" },
+      { name: "Java", proficiency: "green" },
+      { name: "HTML/CSS", proficiency: "green" },
+      { name: "SQL", proficiency: "green" },
+    ],
+  },
+  {
+    title: "Hardware",
+    skillList: [
+      { name: "Circuit Analysis", proficiency: "green" },
+      { name: "Breadboarding", proficiency: "green" },
+      { name: "PCB Design", proficiency: "green" },
+      { name: "Spectrum Analyzers", proficiency: "green" },
+      { name: "Oscilloscopes", proficiency: "green" },
+      { name: "Soldering", proficiency: "green" },
     ],
   },
   {
     title: "Frameworks/Libraries",
     skillList: [
-      { name: "React", proficiency: "proficient" },
-      { name: "Node.js", proficiency: "proficient" },
-      { name: "Express", proficiency: "proficient" },
-      { name: "Tailwind", proficiency: "intermediate" },
-      { name: "Flask", proficiency: "learning" },
-      { name: "Bootstrap", proficiency: "learning" },
+      { name: "React", proficiency: "green" },
+      { name: "Flask", proficiency: "green" },
+      { name: "Node.js", proficiency: "green" },
+      { name: "Express", proficiency: "green" },
+      { name: "Tailwind", proficiency: "green" },
     ],
   },
   {
     title: "Tools",
     skillList: [
-      { name: "VS Code", proficiency: "proficient" },
-      { name: "Excel", proficiency: "proficient" },
-      { name: "Vim", proficiency: "intermediate" },
-      { name: "Git", proficiency: "intermediate" },
-      { name: "Canva", proficiency: "intermediate" },
-      { name: "PostgreSQL", proficiency: "intermediate" },
-      { name: "MongoDB", proficiency: "intermediate" },
-      { name: "Firebase", proficiency: "learning" },
+      { name: "VS Code", proficiency: "green" },
+      { name: "Git", proficiency: "green" },
+      { name: "KiCad", proficiency: "green" },
+      { name: "Excel", proficiency: "green" },
+      { name: "Vim", proficiency: "green" },
+      { name: "Hugging Face", proficiency: "green" },
+      { name: "Canva", proficiency: "green" },
+      { name: "PostgreSQL", proficiency: "green" },
+      { name: "MongoDB", proficiency: "green" },
     ],
   },
 ];
