@@ -4,17 +4,17 @@ function Projects() {
   const webProjects = [
     {
       name: "KeeperApp",
-      imgLink: "/project-pics/KeeperAppGraphic.png",
+      imgLink: "./project-pics/KeeperAppGraphic.png",
       tools: ["React", "Node.js", "Express", "PostgreSQL"],
     },
     {
       name: "TriviaApp",
-      imgLink: "/project-pics/TriviaAppGraphic.png",
+      imgLink: "./project-pics/TriviaAppGraphic.png",
       tools: ["React", "Node.js", "Express", "MongoDB"],
     },
     {
       name: "PersonalSite",
-      imgLink: "/project-pics/PersonalSiteGraphic.png",
+      imgLink: "./project-pics/PersonalSiteGraphic.png",
       tools: ["React", "Tailwind"],
     },
   ];

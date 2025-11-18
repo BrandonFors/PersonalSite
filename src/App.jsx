@@ -18,7 +18,7 @@ function App() {
       <div className="flex lg:flex-row flex-col-reverse justify-center items-center h-screen">
         <Intro></Intro>
         <div className='flex flex-col justify-center items-center'>
-          <img className="w-auto h-auto max-w-full max-h-full" src="/Web Logo.png" alt="Web Logo"></img>
+          <img className="w-auto h-auto max-w-full max-h-full" src="./Web Logo.png" alt="Web Logo"></img>
         </div>
       </div>
       <div className="flex lg:flex-row flex-col justify-center gap-6">

@@ -6,7 +6,7 @@ function Experience() {
     {
       name: "Notre Dame Undergraduate Research Assistant: Sandwich Lab",
       date: "Jan 2025-Present",
-      imgLink: "/experience-pics/saNDwichLogo.png",
+      imgLink: "./experience-pics/saNDwichLogo.png",
       description: "Undergraduate research relating to AI applications in HCI."
     },
   ];

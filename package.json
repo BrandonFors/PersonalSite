@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://brandonfors.github.io/PersonalSite/",
-
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
