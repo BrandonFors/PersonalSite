@@ -40,6 +40,7 @@ const sections = [
     skillList: [
       { name: "VS Code", proficiency: "green" },
       { name: "Git", proficiency: "green" },
+      { name: "Linux", proficiency: "green"},
       { name: "KiCad", proficiency: "green" },
       { name: "Excel", proficiency: "green" },
       { name: "Vim", proficiency: "green" },
