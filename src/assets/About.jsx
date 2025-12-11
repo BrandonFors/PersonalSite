@@ -5,7 +5,7 @@ function About(){
             <h2 className='text-4xl font-bold'>About</h2>
             <p className='text-xl'>
                 I am currently a sophomore at the University of Notre Dame studying Computer Engineering. 
-                I'm interested in exploring my interests in embedded systems, low level programming, and hardware design in and outside of the classroom.
+                I'm interested in exploring my interests in embedded systems, low level programming, IoT devices, and hardware design in and outside of the classroom.
                 I also have an interest in computer vision.
             </p>
             <p className='text-xl'>
