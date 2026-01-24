@@ -6,7 +6,7 @@ const sections = [
   {
     title: "Programming Languages",
     skillList: [
-      { name: "C", proficiency: "green" },
+      { name: "C/C++", proficiency: "green" },
       { name: "Python", proficiency: "green" },
       { name: "JavaScript", proficiency: "green" },
       { name: "Java", proficiency: "green" },
@@ -28,6 +28,8 @@ const sections = [
   {
     title: "Frameworks/Libraries",
     skillList: [
+      { name: "Pytorch", proficiency: "green" },
+      { name: "Sci-Kit Learn", proficiency: "green" },
       { name: "React", proficiency: "green" },
       { name: "Flask", proficiency: "green" },
       { name: "Node.js", proficiency: "green" },
