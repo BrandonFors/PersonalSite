@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ProjectPopup from "./ProjectPopup";
 
 function ProjectWidget(props) {
-  const { name, imgLink, tools } = props.project;
+  const { name, imgLink, gitLink, youtubeLink, tools, description } = props.project;
   const [popup, setPopup] = useState(false);
 
   const exitPopup = () => {
@@ -29,7 +29,7 @@ function ProjectWidget(props) {
           </div>
         ))}
       </div>
-      {popup && <ProjectPopup exitPopup={exitPopup} name={name} />}
+      {popup && <ProjectPopup exitPopup={exitPopup} name={name} youtubeLink={youtubeLink} gitLink={gitLink} description={description}/>}
     </div>
   );
 }

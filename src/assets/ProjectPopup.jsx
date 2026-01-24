@@ -1,13 +1,6 @@
 import React from "react";
 
 function ProjectPopup(props) {
-  const descriptions = {
-    KeeperApp:
-      "This web application allows the user to enter and keep sticky notes on a webpage. When the user is logged in, notes are stored using PostgreSQL and accessed/edited using basic CRUD operations and the user id. ",
-    TriviaApp:
-      "This site provides the user with trivia questions through various user selections which eventually lead to questions being fetched from a trivia API. If the user chooses to log in, score data is stored using MongoDB.",
-    PersonalSite: "This site was created with React and styled using Tailwind.",
-  };
 
   const handleCloseClick = (event) => {
     event.stopPropagation();
@@ -22,12 +15,19 @@ function ProjectPopup(props) {
         </button>
         <div className="space-y-4">
           <h2 className="text-2xl font-bold text-gray-800">{props.name}</h2>
-          <p className="text-gray-600">{descriptions[props.name]}</p>
+          <p className="text-gray-600">{props.description}</p>
         </div>
 
         <div className="flex justify-end gap-4 mt-6">
           <a
-            href={`https://github.com/BrandonFors/${props.name}`}
+            href={`${props.youtubeLink}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           <img src="./icons/youtube.svg" className="w-10 h-10"/>
+          </a>
+          <a
+            href={`${props.gitLink}`}
             target="_blank"
             rel="noopener noreferrer"
           >

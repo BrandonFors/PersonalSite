@@ -10,8 +10,22 @@ const sections = [
       { name: "Python", proficiency: "green" },
       { name: "JavaScript", proficiency: "green" },
       { name: "Java", proficiency: "green" },
-      { name: "HTML/CSS", proficiency: "green" },
       { name: "SQL", proficiency: "green" },
+    ],
+  },
+  {
+    title: "Embedded/Firmware",
+    skillList: [
+      { name: "FreeRTOS", proficiency: "green" },
+      { name: "GPIO", proficiency: "green" },
+      { name: "SPI", proficiency: "green" },
+      { name: "I2C", proficiency: "green" },
+      { name: "UART", proficiency: "green" },
+      { name: "PWM", proficiency: "green" },
+      { name: "CMake", proficiency: "green" },
+      { name: "Kconfig", proficiency: "green" },
+
+
     ],
   },
   {

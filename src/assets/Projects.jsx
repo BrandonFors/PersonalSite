@@ -5,29 +5,51 @@ function Projects() {
     {
       name: "KeeperApp",
       imgLink: "./project-pics/KeeperAppGraphic.png",
+      youtubeLink: "",
+      gitLink: "https://github.com/BrandonFors/KeeperApp",
       tools: ["React", "Node.js", "Express", "PostgreSQL"],
+      description: "This web application allows the user to enter and keep sticky notes on a webpage. " +
+      "When the user is logged in, notes are stored using PostgreSQL and accessed/edited using basic CRUD operations and the user id. ",
     },
     {
       name: "TriviaApp",
       imgLink: "./project-pics/TriviaAppGraphic.png",
+      youtubeLink: "",
+      gitLink: "https://github.com/BrandonFors/TriviaApp",
       tools: ["React", "Node.js", "Express", "MongoDB"],
+      description: "This site provides the user with trivia questions through various user selections which eventually lead to "+
+      "questions being fetched from a trivia API. If the user chooses to log in, score data is stored using MongoDB. "
     },
     {
       name: "PersonalSite",
       imgLink: "./project-pics/PersonalSiteGraphic.png",
+      youtubeLink: "",
+      gitLink: "https://github.com/BrandonFors/PersonalSite",
       tools: ["React", "Tailwind"],
+      description: "This site was created with React and styled using Tailwind. ",
     },
   ];
   const embeddedProjects = [
     {
       name: "DeskAssist",
       imgLink: "",
+      youtubeLink: "",
+      gitLink: "https://github.com/BrandonFors/DeskAssist",
       tools: ["C", "FreeRTOS", "ESP-IDF" , "ESP32"],
+      description: "DeskAssist was designed to automate desk comfort with a configurable fan/vent system and lamp. " +
+      "It has an OLED screen UI on which the user can toggle actuators on/off, turn auto mode on/off, and adjust actuator power. " +
+      "This project's firmware was built with EDP-IDF and FreeRTOS for the ESP32 DevKit C. " + 
+      "The device also has built in WiFi to get the current time and temperature for South Bend, Indiana. "
     },
     {
       name: "Magnetorquer Wrapper",
       imgLink: "",
-      tools: ["Arduino C", "Arduino IDE", "Bare Metal"],
+      youtubeLink: "https://www.youtube.com/watch?v=tCCJOBqF6nw",
+      gitLink: "https://github.com/ND-IrishSat/MagnetorquerWrapper",
+      tools: ["C++", "Arduino IDE", "Bare Metal"],
+      description: "The Magnetorquer Wrapper was made to automate magnetorquer wrapping for IrishSAT's ThinSat team who were constructing a small satelite system. " +
+      "The software was written on the Arduino IDE for an Arduino UNO to control two stepper motors using two DR8825 boards. " + 
+      "The two brief demos below show the device wrapping the body of the ThinSat and a magnetorquer. "
     },
   ];
 
@@ -35,7 +57,13 @@ function Projects() {
     {
       name: "Plant Disease Detection",
       imgLink: "",
+      youtubeLink: "",
+      gitLink: "https://github.com/BrandonFors/PlantDiseaseModelExperimentNotebooks",
       tools: ["Python", "Pytorch", "Hugging Face" , "TensorBoard"],
+      description: "I chose to do this project after learning about pytorch and wanting to apply my knowledge to CV in some way. "+
+      "This computer vision model is was trained using pytorch and the hugging face datasets library. " + 
+      "The dataset is a precleaned set of various diseases on differnt types of leaves. " + 
+      "There is a current demo up on my Hugging Face account. "
     },
   ];
   return (
