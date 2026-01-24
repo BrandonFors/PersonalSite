@@ -43,8 +43,8 @@ function Projects() {
     },
     {
       name: "Magnetorquer Wrapper",
-      imgLink: "",
-      youtubeLink: "https://www.youtube.com/watch?v=tCCJOBqF6nw",
+      imgLink: "./project-pics/MagnetorquerWrapper.jpg",
+      youtubeLink: "https://youtu.be/l4Wngb5zKtM",
       gitLink: "https://github.com/ND-IrishSat/MagnetorquerWrapper",
       tools: ["C++", "Arduino IDE", "Bare Metal"],
       description: "The Magnetorquer Wrapper was made to automate magnetorquer wrapping for IrishSAT's ThinSat team who were constructing a small satelite system. " +
