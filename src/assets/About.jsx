@@ -18,7 +18,9 @@ function About(){
                 I am also involved in
                 <span className='text-blue hover:text-orange'><a href = "https://sites.nd.edu/cs4good/" target="_blank"> CS4Good </a></span>
                 where I am leading a team in developing a React/Flask/MongoDB application used to introduce basic statistics concepts to 5th graders.
-                I also recently joind the Howard Lab at Notre Dame which is an embedded systems focused lab. Here, I am working with peers
+            </p>
+            <p className='text-xl'>
+               I also recently joind the Howard Lab at Notre Dame which is an embedded systems focused lab. Here, I am working with peers
                 on a project called "ChemBand". We are developing a wearable device which specializes in detecting and identifying chemicals in the surrounding 
                 environment. This research will have applications for workers in remote areas such as rescue workers who could be exposed to chemicals
                 on the job. Professor Howard is also the mentor for IRIS and I am excited to learn from him and more experienced students around me.

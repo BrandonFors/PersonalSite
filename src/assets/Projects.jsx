@@ -56,8 +56,8 @@ function Projects() {
   const aiProjects = [
     {
       name: "Plant Disease Detection",
-      imgLink: "",
-      youtubeLink: "",
+      imgLink: "./project-pics/PlantDiseaseModel.png",
+      youtubeLink: "https://huggingface.co/spaces/BrandonFors/PlantDiseaseDetection",
       gitLink: "https://github.com/BrandonFors/PlantDiseaseModelExperimentNotebooks",
       tools: ["Python", "Pytorch", "Hugging Face" , "TensorBoard"],
       description: "I chose to do this project after learning about pytorch and wanting to apply my knowledge to CV in some way. "+

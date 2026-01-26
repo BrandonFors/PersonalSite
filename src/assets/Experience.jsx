@@ -12,7 +12,7 @@ function Experience() {
     {
       name: "Notre Dame Undergraduate Research Assistant: Howard Lab",
       date: "Jan 2026 - Present",
-      imgLink: "",
+      imgLink: "./experience-pics/notreDameLogo.png",
       description: "Undergraduate research developing firmware for the 'ChemBand' project. We are creating a wearable embedded system that specializes in airborne chemical detection."
     },
   ];
