@@ -33,14 +33,13 @@ function Projects() {
     {
       name: "DeskAssist",
       imgLink: "./project-pics/DeskAssist.JPG",
-      youtubeLink: "",
+      youtubeLink: "https://youtu.be/a20OJwDagEw",
       gitLink: "https://github.com/BrandonFors/DeskAssist",
       tools: ["C", "FreeRTOS", "ESP-IDF" , "ESP32"],
       description: "DeskAssist was designed to automate desk comfort with a configurable fan/vent system and lamp. " +
       "It has an OLED screen UI on which the user can toggle actuators on/off, turn auto mode on/off, and adjust actuator power. " +
       "This project's firmware was built with EDP-IDF and FreeRTOS for the ESP32 DevKit C. " + 
-      "The device also has built in WiFi to get the current time and temperature for South Bend, Indiana. " +
-      "Demo is coming."
+      "The device also has built in WiFi to get the current time and temperature for South Bend, Indiana. "
     },
     {
       name: "Magnetorquer Wrapper",
