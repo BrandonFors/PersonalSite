@@ -47,7 +47,7 @@ function Projects() {
       youtubeLink: "https://youtu.be/l4Wngb5zKtM",
       gitLink: "https://github.com/ND-IrishSat/MagnetorquerWrapper",
       tools: ["C++", "Arduino IDE", "Bare Metal"],
-      description: "The Magnetorquer Wrapper was made to automate magnetorquer wrapping for IrishSAT's ThinSat team who were constructing a small satelite system. " +
+      description: "The Magnetorquer Wrapper was made to automate magnetorquer wrapping for IrishSAT's ThinSat team who were constructing a small satellite system. " +
       "The software was written on the Arduino IDE for an Arduino UNO to control two stepper motors using two DRV8825 boards. " + 
       "The two brief demos below show the device wrapping the body of the ThinSat and a magnetorquer. "
     },
