@@ -42,8 +42,9 @@ const sections = [
   {
     title: "Frameworks/Libraries",
     skillList: [
+      { name: "Shell Scripting", proficiency: "green" },
       { name: "Pytorch", proficiency: "green" },
-      { name: "Sci-Kit Learn", proficiency: "green" },
+      { name: "Scikit-Learn", proficiency: "green" },
       { name: "React", proficiency: "green" },
       { name: "Flask", proficiency: "green" },
       { name: "Node.js", proficiency: "green" },
