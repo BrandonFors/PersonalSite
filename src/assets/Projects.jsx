@@ -51,6 +51,17 @@ function Projects() {
       "The software was written on the Arduino IDE for an Arduino UNO to control two stepper motors using two DRV8825 boards. " + 
       "The two brief demos below show the device wrapping the body of the ThinSat and a magnetorquer. "
     },
+    {
+        name: "IRIS Node",
+        imgLink: "./project-pics/IRIS_NODE.jpg",
+        youtubeLink: "",
+        gitLink: "",
+        tools: ["C", "FreeRTOS", "PicoSDK", "RP2040", "Python"],
+        description: "The IRIS Node is a project developed by the IRIS high altitude baloon subsection of IrishSAT. " + 
+        "We focus on developing a high altitude balloon node which can guide itself to a predetermined landing point to enable data recovery and increase the reusability of HAB systems. " +
+        "I primarily focus on developing the software for this system which involves using the PicoSDK and FreeRTOS to write tested/reliable C code. " +
+        "Embedded software responsibilities include sensor integration, data logging/communication, and controls implementation which I work with my teamates to accomplish."
+    }
   ];
 
   const aiProjects = [

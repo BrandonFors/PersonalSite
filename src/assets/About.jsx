@@ -14,10 +14,8 @@ function About(){
                 <span className='text-blue hover:text-orange'><a href = "https://ndirishsat.com/" target="_blank"> IrishSAT </a></span>
                 where I am on the club's high altitude balloon team, IRIS. 
                 We are currently continuing development on a custom RP2040 board that supports sensor data collection, RF communication, data logging,
-                and descent control using a parafoil. I am personally working on firmware drivers that support data logging to an SD card. 
-                I am also involved in
-                <span className='text-blue hover:text-orange'><a href = "https://sites.nd.edu/cs4good/" target="_blank"> CS4Good </a></span>
-                where I am leading a team in developing a React/Flask/MongoDB application used to introduce basic statistics concepts to 5th graders.
+                and descent control using a parafoil. I have been specifically involved in developing an sd card driver, building out RTOS mechanisms, and improving overal
+                system reliability. 
             </p>
             <p className='text-xl'>
                I also recently joind the Howard Lab at Notre Dame which is an embedded systems focused lab. Here, I am working with peers

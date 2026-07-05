@@ -24,7 +24,7 @@ const sections = [
       { name: "PWM", proficiency: "green" },
       { name: "CMake", proficiency: "green" },
       { name: "Kconfig", proficiency: "green" },
-
+      { name: "Yocto Project", proficiency: "green" },
 
     ],
   },
