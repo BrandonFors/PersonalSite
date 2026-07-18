@@ -61,6 +61,19 @@ function Projects() {
         "We focus on developing a high altitude balloon node which can guide itself to a predetermined landing point to enable data recovery and increase the reusability of HAB systems. " +
         "I primarily focus on developing the software for this system which involves using the PicoSDK and FreeRTOS to write tested/reliable C code. " +
         "Embedded software responsibilities include sensor integration, data logging/communication, and controls implementation which I work with my teamates to accomplish."
+    },
+    {
+        name: "PCB Badge",
+        imgLink: "./project-pics/pcb_badge.JPG",
+        youtubeLink: "",
+        gitLink: "https://github.com/BrandonFors/convention_pcb_badge",
+        tools: ["KiCad", "C", "ESP32C3", "ESP-IDF", "Bare Metal"],
+        description: "This is a project I originally created for Open Sauce 2026. I utilized KiCad to design a pcb board badge often seen at various tech conferences. " +
+        "The badge is equiped with an e-ink display, ESP32C3, leds, buttons, and is designed to look like a satellite. " + 
+        "The board also has a battery managment circuit on the back to support a LiPo battery for portability. " + 
+        "I wrote a display driver for the e-ink display and programmed the ESP32C3 wih ESP-IDF. " +
+        "This project is teaching me a lot about the pcb design, testing, and debugging process. " + 
+        "It's one of my first pcb design focused projects and I feel more confident in knowing how to approach pcb desgin in future projects."
     }
   ];
 
