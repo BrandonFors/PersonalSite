@@ -18,7 +18,7 @@ function About(){
                 system reliability. 
             </p>
             <p className='text-xl'>
-               I also recently joind the Howard Lab at Notre Dame which is an embedded systems focused lab. Here, I am working with peers
+               I also am in the Howard Lab at Notre Dame which is an embedded systems focused lab. Here, I am working with peers
                 on a project called "ChemBand". We are developing a wearable device which specializes in detecting and identifying chemicals in the surrounding 
                 environment. This research will have applications for workers in remote areas such as rescue workers who could be exposed to chemicals
                 on the job. Professor Howard is also the mentor for IRIS and I am excited to learn from him and more experienced students around me.
